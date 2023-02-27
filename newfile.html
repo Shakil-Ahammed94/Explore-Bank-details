@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newpage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-violet-200">
+
+    <header class=" mx-auto mt-16 w-9/12 text-center">
+        <h2 class="text-3xl">lets get your <span class="text-sky-400">money!!!</span></h2>
+    </header>
+
+    <section class=" mx-auto mt-16 w-9/12 grid grid-cols-3 gap-4 ">
+        <div class="bg-orange-300 p-10 rounded"> 
+            <h4 class="text-2xl mb-3">Deposit</h4>
+            <p class="text-2xl">$ <span id="three"class="text-2xl">00</span></p>
+
+        </div>
+
+        <div class="bg-blue-300 p-10 rounded"> 
+            <h4 class="text-2xl mb-3">Withdraw</h4>
+            <p class="text-2xl">$ <span id="four" class="text-2xl">00</span></p>
+
+        </div>
+
+        <div class="bg-violet-400 p-10 rounded"> 
+            <h4 class="text-2xl mb-3">Total Amount</h4>
+            <p class="text-2xl">$ <span id="capital" class="text-2xl ">1240</span></p>
+
+        </div>
+
+</section>
+
+
+<section class=" grid grid-cols-2 gap-6 w-9/12 mx-auto  mt-6  mb-16 rounded">
+    
+    <div class="bg-rose-300 p-10 rounded">
+        <h2 class="text-2xl mb-5">Enter your deposit amount</h2>
+        <input  class="block w-9/12 mb-3 p-3 rounded" type="number" name="" id="depositamount" placeholder="$ please enter deposit amount">
+        
+        <button  id="btn" class="bg-amber-700 px-5 py-2 mt-5 rounded hover:bg-lime-500"type="submit">submit</button>
+    </div>
+
+<div class="bg-sky-200 p-10 rounded">
+    <h2 class="text-2xl mb-5">Enter your withdrawl  amount</h2>
+    <input  class="block w-9/12 mb-3 p-3 rounded" type="number" name="" id="withdrawamount" placeholder="$ please enter withdraw amount">
+    
+    <button  id="btn-one" class="bg-amber-700 px-5 py-2 mt-5 rounded hover:bg-lime-500"type="submit">submit</button>
+</div>
+
+
+</section>
+
+<script src="bankamount.js"></script>
+<script src="withdraw.js"></script>
+
+    
+</body>
+</html>
