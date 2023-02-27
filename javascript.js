@@ -1,4 +1,4 @@
-
+// login details
 document.getElementById('btn').addEventListener('click',function(){
     const emailfieldinput=document.getElementById("emailfield");
     const emailvalue=emailfieldinput.value;
